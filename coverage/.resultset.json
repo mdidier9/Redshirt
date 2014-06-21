@@ -1,0 +1,77 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/mdidier/Desktop/Redshirt/app/models/game.rb": [
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/spec/models/location_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/app/models/location.rb": [
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/spec/models/organization_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/app/models/organization.rb": [
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/spec/models/player_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/app/models/player.rb": [
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/spec/models/player_team_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/app/models/player_team.rb": [
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/spec/models/sport_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/app/models/sport.rb": [
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/spec/models/team_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/app/models/team.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1403315618
+  }
+}
