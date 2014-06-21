@@ -1,5 +1,7 @@
 require 'spec_helper'
 
 describe Player do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should have_many(:player_teams) }
+  it { should have_many(:teams).through(:player_teams) }
+
 end
