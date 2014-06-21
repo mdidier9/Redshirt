@@ -45,11 +45,16 @@
         1,
         2,
         2,
+        2,
+        2,
         null,
         null
       ],
       "/Users/mdidier/Desktop/Redshirt/app/models/player.rb": [
         1,
+        1,
+        1,
+        null,
         1,
         1,
         null,
@@ -71,7 +76,7 @@
         null,
         null
       ],
-      "/Users/mdidier/Desktop/Redshirt/spec/models/sport_spec.rb": [
+      "/Users/mdidier/Desktop/Redshirt/spec/models/sport_preference_spec.rb": [
         1,
         null,
         1,
@@ -80,8 +85,29 @@
         null,
         null
       ],
+      "/Users/mdidier/Desktop/Redshirt/app/models/sport_preference.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/mdidier/Desktop/Redshirt/spec/models/sport_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null
+      ],
       "/Users/mdidier/Desktop/Redshirt/app/models/sport.rb": [
         1,
+        1,
+        1,
+        null,
         1,
         1,
         null,
@@ -114,6 +140,6 @@
         null
       ]
     },
-    "timestamp": 1403362460
+    "timestamp": 1403365606
   }
 }
