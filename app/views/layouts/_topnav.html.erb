@@ -1,8 +1,13 @@
 <div id="topnav">
 	<ul>
-		<li><%= link_to "Home" %></li>
-		<li><%= link_to "Teams" %></li>
-		<li><%= link_to "Settings" %></li>
-		<li><%= link_to "Logout" %></li>
+		<% if session[:id] %>
+			<li><%= link_to "Home", root_path %></li>
+			<li><%= link_to "Teams" %></li>
+			<li><%= link_to "Settings" %></li>
+			<li><%= link_to "Logout", session_path(session[:id]), class: "button logout_button", method: :delete, :confirm => "Are you sure you want to log out?" %></li>
+		<% else %>	
+			<li><%= link_to "Login" %></li>
+			<li><%= link_to "Create New Account", new_player_path %></li>
+		<% end %>
 	</ul>
 </div>
