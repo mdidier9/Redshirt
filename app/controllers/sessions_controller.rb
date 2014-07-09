@@ -6,7 +6,8 @@ class SessionsController < ApplicationController
       session[:id] = @player.id
       redirect_to root_path
     else
-      @error = "Please enter correct username/password"
+      # @error = "Please enter correct username/password"
+      # render action: 'player#show'
       redirect_to root_path
     end
   end
