@@ -4,9 +4,6 @@ class PlayersController < ApplicationController
 	
 	end
 
-
-
-
 	def new
 	  @player = Player.new
 	end
@@ -28,8 +25,3 @@ class PlayersController < ApplicationController
     params.require(:player).permit(:email, :password, :password_confirmation)
   end
 end
-
-	  # player = Player.find_by_email(params[:email])
-	  # if player && player.authenticate(params[:password])
-	  #   session[:player_id] = player.id
-	  #   redirect_to root_path, :notice => "Welcome back, #{player.email}"
