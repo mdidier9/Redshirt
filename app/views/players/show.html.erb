@@ -1,6 +1,7 @@
-
 <% if session[:id] %>
-  <h1>My Profile...</h1>
+  <h3>Welcome Back</h3>
+  <h1><%= @player.first_name %> <%= @player.last_name %></h1>
+  <%= render partial: 'players/teams' %>  
 <% else %>
   <%= render partial: 'layouts/landing' %>
 <% end %>

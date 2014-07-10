@@ -1,7 +1,7 @@
 class PlayersController < ApplicationController
 
 	def show
-	
+		@player ||= Player.find_by(id: session[:id])
 	end
 
 	def new
